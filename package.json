@@ -1,0 +1,6 @@
+{
+  "name": "inasan-money-ai-receipt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"dev": "vercel dev"}
+}
