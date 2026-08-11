@@ -21,7 +21,7 @@ JSON以外は返さないでください。`;
         model:"openai/gpt-5.5",
         messages:[{role:"user",content:[
           {type:"text",text:prompt},
-          {type:"image_url",image_url:{url:image}}
+          {type:"image_url",image_url:{url:image,detail:"auto"}}
         ]}],
         response_format:{type:"json_object"},
         temperature:0
